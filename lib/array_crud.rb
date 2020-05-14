@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ["R34" , "GT500" , "RX7" , "Supra"]
-  << 
+  car = ["R34"]
+  car << "RX7"
 end
 
 def add_element_to_start_of_array(array, element)
